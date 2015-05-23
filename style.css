@@ -1,16 +1,16 @@
 
 
-/*  add * to effect whole doc. outliner similar to border */
 
-{
-	outline: 1px solid red;
-}
+
+
 
 .title{
 
 	text-align: center;
+	background-color: gray;
 }
-*{_
+
+*{
 	-webkit-box-sizing: border-box;
 
 	-moz-box-sizing: border-box;
@@ -18,44 +18,36 @@
 
 
 }
-/*   */
 
-* {
-	font-family: 'Indie Flower', cursive;
-}
-
-.name{
-/* named class and aligned text*/
-	text-align: right;
-
-}
-
-/*  # to call id */
-#role {
-
-	text-align: right;
+body{
+	font-family: Helvetica;
 }
 
 
-/*.lesson_1{
 
-	text-align: right;
-	*/
+.lesson-notes{
+
+	color:blue;
+	background-color:#DFEAF1 ;
+	padding: 10px;
 }
-p  {
+.lesson-title {
 
-	color: blue;
-}	
+	color: white;
+	background-color: #294860;
+	border-radius: 10px;
+	padding: 10px;
 
-h4  {
+	}
+	
 
-	text-align: center;
-	color: blue;
-}
+
+
+
 .row {
 	width: 100%;
-/* flex is needed to have boxes slide by side. not added float. display needed */
-	display: flex; flex-wrap;
+
+	display: flex;
 }
 
 .col-1 {
@@ -79,7 +71,7 @@ h4  {
 	width: 50%;
 }
 .col-7 {
-	width: 58.33;
+	width: 58.33%;
 }
 .col-8 {
 	width: 66.66%;
