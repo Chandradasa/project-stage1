@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
 
-    <title>Daves new website</title>
+    <title>Daves new website check</title>
     
 
     <link rel="stylesheet" href="style.css">
@@ -107,7 +107,7 @@
           <p> HTML comment &lt;ignore!-->  CSS /* */ &gt;</p>
           <P> Code ,test refine: can use dev tools to see results</P>
           <p> can put html and css code into w3s validator to check that it meets standards</p>
-          <p> To verify HTML: <a href="http://validator.w3.org/#validate_by_input">HTML validation</a> 
+          <p> To verify HTML: <a href="https://validator.w3.org/nu/ ">HTML validation</a> 
           To verify CSS:<a href="http://jigsaw.w3.org/css-validator/#validate_by_input"> CSS validation</a> </p>
           <p> using grid css to divide web page into boxes</p>
           <span style="color:red"> make sure you verify html and css</span>
@@ -451,8 +451,198 @@
       </div>
           
     </div>
+</div>
+</div>
+
+
+<div class="row">
+ <div class="col-6">
+
+<div class="lesson-notes">
+      <div class="lesson-title">
+          <h2> 3.1-.2 introduction to abstraction  and Use functions</h2>
+      </div>
+      <div>
+       <h3> OOP object oriented programming </h3>
+
+          Where common properties and methods are grouped into a class. Then we can  use the class to create different 
+          objects or instances.<br>
+          <br>
+
+           e.g. class could be vehicle , and subclasses could be  Car, truck , bus. and objects or instances = bmw and mini
+           <br>
+
+            method  is like a function doing something. e.g. moving forward
+            <br>
+
+            module  has a function but generally cannot be changed. While class can have many objects
+
+            <br>
+              <h3>OOP   analogy:</h3>
+                Learning Karate:  there are various movements; strikes,blocks and kicks. ,<br>
+
+                Kata, uses a set of movements. Theses movements come from Karate techniques. Karate= Clase and each kata is an object or instance.
+
+                there are more than 26 katas
+
+
+
+
+
+
+
+      </div>
+          
+    </div>
+
+    </div>
+
+
+<div class="col-6">
+<div class="lesson-notes">
+      <div class="lesson-title">
+          <h2> lesson 3.3a,b,c, Classes</h2>
+      </div>
+      <div>
+        
+
+              <h3>3.3 a classes- Draw Turtles</h3>
+
+              Class  is like a blue print,  instances  or object uses some of the  blue print parameters <br>
+
+              When calling a class, we are calling the initialization  init function. Which allocated space in memory to use some of the class parameters ,<br>
+
+
+              Turtle is a file and within this file is the turtle class.
+
+
+
+              <h3>3.3b  Classes- Send Text </h3>
+              Importing file called twilio 
+              <br>
+
+              From twilio.rest import  twilioRestClient
+
+              File twilio.rest  call class twilioRestClient. 
+              <br>
+              client= twilioRestClient ()
+              Client is an instance or object
+              <br>
+              Can have many instances  of a class.
+
+
+              <h3>3.3c  Classes  Profanity Editor</h3>
+
+              Open function in standard library and not in a deeper file. Buil-in function 
+              <br>
+              Open is class
+              <br>
+              Urllib is a file in standard library , urlopen is a function inside
+              <br>
+
+              We created objects of : turtle , open , urlopen 
+              They are classes
+
+
+
+            
+
+
+
+
+
+      </div>
+          
+    </div>
+
+ </div>
+</div>
+
+
+<div class="row">
+ <div class="col-6">
+  <div class="lesson-notes">
+      <div class="lesson-title">
+          <h2> lesson 3.4a,b making Classes</h2>
+      </div>
+      <div>
+        
+
+            <h3>3.4a.Make Classes Move website </h3>
+
+              <b>Creating a class</b> <br>
+             <p> class will have things to remember (data)and things to do. (Method ) <br> </p>
+
+                class Movie ( )  : Recommend caps for first letter.  From  Google  style guide  <br>
+
+                Each movie will be an instance 
+                  <br><br>
+
+                Create a class in one file. Then open another file to  create an instance and import Class information
+                <br><br>
+
+              Toy = media.Movie()
+              Ini. initiate  Is also called <b>constructor</b> 
+              <br>
+
+              def __ init__( self
+              Make sure def does not touch underscore <br><br>
+           <ul>
+               <li> 
+                 Self  becomes the name of the instance 
+                </li> 
+                <li> 
+                 Instance variables  when a variable  created in an instance  
+                 </li>
+
+                <li>
+                  When running  instance  it will need data to feed the init function in class. 
+                </li> 
+                <li>
+                   Instance method. Is  when a method is called from a class. 
+                </li> 
+
+            </ul>
+
+              <h3>3.4b Make Classes Advance </h3> 
+
+                Class variable, defined  before init.
+                 Shared by all objects.
+                Style should be all caps <br> <br>
+
+                There are  pre defined  variable eg  __doc__ <br>
+                <br>
+
+                Inheritance uses existing code. <br>
+
+                Keep class and instance in different files but in same folder  <br>
+
+                To use class parent, class Child ( Parent):
+                Parent . Init   Then add extra variable  <br> <br>
+
+               <b> Fish = class. Salmon = object</b> <br> 
+
+                Method created in parent class can be called in child parent. <br>
+
+                Method overriding  when methods have same name in both parent and child, errors do not occur.<br>
+
+                 When calling method in child  even though same name in parent. 
+
+
+
+
+
+
+
+
+
+      </div>
+          
+    </div>
+    </div>
+
   </div>
-  </div>
+
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
